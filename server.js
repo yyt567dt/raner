@@ -114,7 +114,7 @@ setInterval(keep_web_alive, 10 * 1000);
 app.use(
   "/",
   createProxyMiddleware({
-    changeOrigin: true, // 默认false，是否需要改变原始主机头为目标URL
+    changeOrigin: false, // 默认false，是否需要改变原始主机头为目标URL
     onProxyReq: function onProxyReq(proxyReq, req, res) {},
     pathRewrite: {
       // 请求中去除/
