@@ -178,8 +178,7 @@ generate_config() {
     ],
     "dns":{
         "servers":[
-            "8.8.8.8",
-            "8.8.4.4"
+            "https+local://8.8.8.8/dns-query"
         ]
     },
     "outbounds":[
