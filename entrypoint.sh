@@ -91,8 +91,7 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
+                    "http"
                 ],
                 "metadataOnly":false
             }
@@ -118,8 +117,7 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
+                    "http"
                 ],
                 "metadataOnly":false
             }
@@ -145,8 +143,7 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
+                    "http"
                 ],
                 "metadataOnly":false
             }
@@ -173,8 +170,7 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
+                    "http"
                 ],
                 "metadataOnly":false
             }
@@ -182,7 +178,8 @@ generate_config() {
     ],
     "dns":{
         "servers":[
-            "https+local://8.8.8.8/dns-query"
+            "8.8.8.8",
+            "8.8.4.4"
         ]
     },
     "outbounds":[
