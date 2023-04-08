@@ -14,7 +14,7 @@ generate_config() {
     },
     "inbounds":[
         {
-            "listen":"127.0.0.1",
+            
             "port":8080,
             "protocol":"vless",
             "settings":{
@@ -178,7 +178,8 @@ generate_config() {
     ],
     "dns":{
         "servers":[
-            "https+local://8.8.8.8/dns-query"
+            "8.8.8.8",
+            "8.8.4.4"
         ]
     },
     "outbounds":[
@@ -197,7 +198,7 @@ generate_config() {
                 "peers":[
                     {
                         "publicKey":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-                        "endpoint":"162.159.193.10:2408"
+                        "endpoint":"engage.cloudflareclient:2408"
                     }
                 ]
             }
