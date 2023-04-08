@@ -89,6 +89,7 @@ generate_config() {
                 }
             },
             "sniffing":{
+             "enabled":false,
                 "destOverride":[
                     "http"
                 ],
@@ -114,6 +115,7 @@ generate_config() {
                 }
             },
             "sniffing":{
+             "enabled":false,
                 "destOverride":[
                     "http"
                 ],
@@ -139,6 +141,7 @@ generate_config() {
                 }
             },
             "sniffing":{
+             "enabled":false,
                 "destOverride":[
                     "http"
                 ],
@@ -165,6 +168,7 @@ generate_config() {
                 }
             },
             "sniffing":{
+             "enabled":false,
                 "destOverride":[
                     "http"
                 ],
